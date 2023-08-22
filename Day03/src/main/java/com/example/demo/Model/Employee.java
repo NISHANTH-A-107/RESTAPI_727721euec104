@@ -1,14 +1,17 @@
 package com.example.demo.Model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "EmployeeDetails")
+@Table(name = "employeedetails")
 public class Employee {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
 	private String employeeName;
