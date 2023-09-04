@@ -1,9 +1,0 @@
-com\example\demo\Model\Package.class
-com\example\demo\ProjectZipZapApplication.class
-com\example\demo\Service\UserService.class
-com\example\demo\Controller\PackageControl.class
-com\example\demo\Model\Users.class
-com\example\demo\Service\PackageService.class
-com\example\demo\Repository\PackageRepo.class
-com\example\demo\Controller\UserControl.class
-com\example\demo\Repository\UserRepo.class
